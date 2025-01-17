@@ -8,10 +8,7 @@ import lombok.Setter;
 import java.time.LocalDateTime;
 import java.util.Set;
 
-@Entity
-@Getter
-@Setter
-@Table(name = "app_user")
+@Entity @Getter @Setter @Table(name = "app_user")
 public class User {
 
     @Id
